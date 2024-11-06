@@ -96,7 +96,7 @@ def chromatic_adaptation_image(src_white_point, dst_white_point, src_img):
 
 if __name__ == '__main__':
     # read image which generally in sRGB format, and scale image in range [0.0, 1.0]
-    img = np.array(Image.open('batman.png'))[:, :, :3] / 255.0
+    img = np.array(Image.open('../Textures/batman.png'))[:, :, :3] / 255.0
     illuminant = get_gray_world_illuminant(img)
 
     # source illuminant white point obtained from previous step
@@ -109,4 +109,4 @@ if __name__ == '__main__':
     ca_img = (ca_img * 255).astype(np.uint8)
 
     dst_image = Image.fromarray(ca_img)
-    dst_image.save("batman_ca.png")
+    dst_image.save("../Textures/batman_ca.png")
