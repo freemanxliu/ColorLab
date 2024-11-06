@@ -16,6 +16,6 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 * CIE 1931 Chromaticity: Diagram https://www.desmos.com/calculator/gwcv0m0kjt?lang=zh-CN
 
 
-## Additional Materials
+### Additional Readings
 
 * "RGB to XYZ: The Science and History of Color" by John Austin: https://www.youtube.com/watch?v=AS1OHMW873s
