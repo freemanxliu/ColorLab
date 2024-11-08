@@ -36,3 +36,6 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 ### References
 * [Wright 1928] A re-determination of the trichromatic coefficients of the spectral colours. Trans Opt Soc London 1928–29;30:141–164
 * [Wright 1929] A re-determination of the mixture curves of the spectrum. Trans Opt Soc London 1929–30;31:201–211.
+* [Guild 1931] The colorimetric properties of the spectrum. Philos Trans Roy Soc London Ser. A 1931;230:149–187.
+* [Broadbent 2004a] A Critical Review of the Development of the CIE1931 RGB Color-Matching Functions. Color Research & Application 29(4):267–272. August 2004.
+* [Broadbent 2004b] Calculation from the original experimental data of the CIE 1931 RGB standard observer spectral chromaticity co-ordinates and color matching functions.
