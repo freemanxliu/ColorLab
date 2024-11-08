@@ -20,6 +20,7 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 ### Data
 
 * CIE Official Database: https://cie.co.at/data-tables
+* Luminous efficiency function/光度函数：http://www.cvrl.org/lumindex.htm
 * https://www.site.uottawa.ca/~edubois/mdsp/data/index.html
 
 ### Additional Readings
