@@ -32,3 +32,7 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 * "RGB to XYZ: The Science and History of Color" by John Austin: https://www.youtube.com/watch?v=AS1OHMW873s
 * "CIE Color Space" by Gernot Hoffmann: http://docs-hoffmann.de/ciexyz29082000.pdf
 * 绘制 CIE 1931 色度图: https://zhajiman.github.io/post/chromaticity_diagram/
+
+### References
+* [Wright 1928] A re-determination of the trichromatic coefficients of the spectral colours. Trans Opt Soc London 1928–29;30:141–164
+* [Wright 1929] A re-determination of the mixture curves of the spectrum. Trans Opt Soc London 1929–30;31:201–211.
