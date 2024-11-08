@@ -28,6 +28,7 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 
 
 * How the CIE 1931 RGB Color Matching Functions Were Developed from the Initial Color Matching Experiments: https://yuhaozhu.com/blog/cmf.html
+* 如何从最初的颜色匹配实验导出 CIE 1931 RGB 颜色匹配函数: https://zhajiman.github.io/post/color_matching_function/#fnref:2
 * "RGB to XYZ: The Science and History of Color" by John Austin: https://www.youtube.com/watch?v=AS1OHMW873s
 * "CIE Color Space" by Gernot Hoffmann: http://docs-hoffmann.de/ciexyz29082000.pdf
 * 绘制 CIE 1931 色度图: https://zhajiman.github.io/post/chromaticity_diagram/
