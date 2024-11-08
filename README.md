@@ -24,4 +24,7 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 
 ### Additional Readings
 
+
+
+* How the CIE 1931 RGB Color Matching Functions Were Developed from the Initial Color Matching Experiments: https://yuhaozhu.com/blog/cmf.html
 * "RGB to XYZ: The Science and History of Color" by John Austin: https://www.youtube.com/watch?v=AS1OHMW873s
