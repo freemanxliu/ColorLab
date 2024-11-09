@@ -1,7 +1,15 @@
 {
-  "wright_1929":
+  "wright_1929_color_match":
   {
     "data" : "../Data/wright_1929_2deg.csv",
-    "config": "../Data/wright_1929_2deg.json"
+    "config": "../Data/wright_1929_2deg.json",
+    "type": "graph0"
+  },
+
+    "wright_1929_gamut":
+  {
+    "data" : "../Data/wright_1929_2deg.csv",
+    "config": "../Data/wright_1929_2deg.json",
+    "type": "graph1"
   }
 }

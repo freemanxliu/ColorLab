@@ -1,22 +1,23 @@
 {
   "graph0":
   {
+    "curve_type": "wr, wg, wb",
     "title" : "A re-determination of the trichromatic coefficients of the spectral colours",
     "x_label": "wavelength (nn)",
     "y_label": "rgb (degree)",
     "x_scales" : "function",
     "x_ticks": [406, 418, 431, 447, 465, 488, 515, 550, 596, 659, 747],
-    "x_labels": ["0.406", "0.418", "0.431", "0.447", "0.465", "0.488", "0.515", "0.550", "0.596", "0.659", "0.747"],
-    "texts": ["as"]
+    "x_labels": ["0.406", "0.418", "0.431", "0.447", "0.465", "0.488", "0.515", "0.550", "0.596", "0.659", "0.747"]
   },
+
   "graph1":
   {
+    "curve_type": "rg",
     "title" : "Colors",
     "x_label": "Red",
     "y_label": "rgb (degree)",
     "x_scales" : "linear",
     "x_ticks":  [-0.2, -0.1, 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
-    "x_labels": ["-0.2", "-0.1", "", ",.1", ".2", ".3", ".4", ".5", ".6", ".7", ".8", ".9", "1.0"],
-    "texts": ["as"]
+    "x_labels": ["-0.2", "-0.1", "", ",.1", ".2", ".3", ".4", ".5", ".6", ".7", ".8", ".9", "1.0"]
   }
 }
