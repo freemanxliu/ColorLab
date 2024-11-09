@@ -1,0 +1,7 @@
+{
+  "wright_1929":
+  {
+    "data" : "../Data/wright_1929_2deg.csv",
+    "config": "../Data/wright_1929_2deg.json"
+  }
+}
