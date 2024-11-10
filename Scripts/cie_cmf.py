@@ -10,21 +10,6 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
 def config_graph(axis, axis_config, id):
-    # axis[id].set_title(axis_config[f'graph{id}']['title'])
-    # axis[id].set_xlabel(axis_config[f'graph{id}']['x_label'])
-    # axis[id].set_ylabel(axis_config[f'graph{id}']['y_label'])
-    #
-    # if axis_config[f'graph{id}']['x_scales'] == 'function':
-    #     axis[id].set_xscale('function', functions=(
-    #         lambda x: np.interp(x, axis_config[f'graph{id}']['x_ticks'],
-    #                             np.linspace(0, 1, len(axis_config[f'graph{id}']['x_ticks']))),
-    #         lambda x: np.abs(x)))
-    # else:
-    #     axis[id].set_xscale(axis_config[f'graph{id}']['x_scales'])
-    #
-    # axis[id].set_xticks(axis_config[f'graph{id}']['x_ticks'])
-    # axis[id].set_xticklabels(axis_config[f'graph{id}']['x_labels'])
-
     axis[id].set_title(axis_config['title'])
     axis[id].set_xlabel(axis_config['x_label'])
     axis[id].set_ylabel(axis_config['y_label'])
@@ -65,15 +50,7 @@ def plot_graph(axis, graph_data, axis_config, id):
 def plot_graphs(axis, datas, configs):
     assert len(datas) == len(configs), "graph names and types must be same length"
 
-    # # metadata
-    # with open('../Data/graph.json', 'r', encoding='utf-8') as file:
-    #     graph_config = json.load(file)
-
     for idx in range(len(datas)):
-        # with open(graph_config[graph_names[graph_idx]]["config"], 'r', encoding='utf-8') as file:
-        #     axis_config = json.load(file)
-        # graph_data = pd.read_csv(graph_config[graph_names[graph_idx]]["data"])
-
         plot_graph(axis, datas[idx], configs[idx], idx)
 
     # plt.show()
@@ -123,7 +100,7 @@ if __name__ == "__main__":
     left_graph.pack(side=tk.LEFT, padx=500, pady=10)
 
     right_graph = ttk.Combobox(root, values=graph_options)
-    right_graph.current(0)
+    right_graph.current(1)
     right_graph.bind("<<ComboboxSelected>>", update_frame)
     right_graph.pack(side=tk.RIGHT, padx=500, pady=10)
 
