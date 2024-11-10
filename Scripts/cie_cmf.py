@@ -1,6 +1,4 @@
 import json
-from unittest.mock import right
-
 import numpy as np
 import pandas as pd
 import tkinter as tk
@@ -73,12 +71,8 @@ def update():
 
     plot_graphs(ax, graph_datas, graph_types)
 
-def update_frame(x):
-    update()
-
 if __name__ == "__main__":
 
-    # create subplots
     fig, ax = plt.subplots(1, 2, figsize=(20, 8))
     # fig.tight_layout()
 
@@ -96,12 +90,12 @@ if __name__ == "__main__":
 
     left_graph = ttk.Combobox(root, values=graph_options)
     left_graph.current(0)
-    left_graph.bind("<<ComboboxSelected>>", update_frame)
+    left_graph.bind("<<ComboboxSelected>>", lambda x: update())
     left_graph.pack(side=tk.LEFT, padx=500, pady=10)
 
     right_graph = ttk.Combobox(root, values=graph_options)
     right_graph.current(1)
-    right_graph.bind("<<ComboboxSelected>>", update_frame)
+    right_graph.bind("<<ComboboxSelected>>", lambda x : update())
     right_graph.pack(side=tk.RIGHT, padx=500, pady=10)
 
     update()
