@@ -22,10 +22,11 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 * CIE Official Database: https://cie.co.at/data-tables
 * Luminous efficiency function/光度函数：http://www.cvrl.org/lumindex.htm
 * https://www.site.uottawa.ca/~edubois/mdsp/data/index.html
+### Talks
+* From Texture to Display: The Color Pipeline of a Pixel in Unreal Engine | Unreal Fest 2024: https://www.youtube.com/watch?v=II_rnWU7Uq8
+
 
 ### Additional Readings
-
-
 
 * How the CIE 1931 RGB Color Matching Functions Were Developed from the Initial Color Matching Experiments: https://yuhaozhu.com/blog/cmf.html
 * 如何从最初的颜色匹配实验导出 CIE 1931 RGB 颜色匹配函数: https://zhajiman.github.io/post/color_matching_function/#fnref:2
