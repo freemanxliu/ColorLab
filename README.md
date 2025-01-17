@@ -24,6 +24,7 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 * https://www.site.uottawa.ca/~edubois/mdsp/data/index.html
 ### Talks
 * From Texture to Display: The Color Pipeline of a Pixel in Unreal Engine | Unreal Fest 2024: https://www.youtube.com/watch?v=II_rnWU7Uq8
+* 技术|色彩科学|传统颜色模型及理论|Traditional and Modern Colour Theory: https://www.bilibili.com/video/BV1GVi2Y7EJP/?spm_id_from=333.337.search-card.all.click&vd_source=e62550e02625e2eb5b83f8ee112e0b44
 
 
 ### Additional Readings
