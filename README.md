@@ -35,6 +35,7 @@ ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 * "CIE Color Space" by Gernot Hoffmann: http://docs-hoffmann.de/ciexyz29082000.pdf
 * 绘制 CIE 1931 色度图: https://zhajiman.github.io/post/chromaticity_diagram/
 * ACES, OCIO and UE5: https://medium.com/@alexandrealvesdb/aces-ocio-and-ue5-part-1-ec293b3bc294
+* OpenColorIO Quick Start for Unreal Engine: https://dev.epicgames.com/documentation/en-us/unreal-engine/opencolorio-quick-start-for-unreal-engine
 
 ### References
 * [Wright 1928] A re-determination of the trichromatic coefficients of the spectral colours. Trans Opt Soc London 1928–29;30:141–164
