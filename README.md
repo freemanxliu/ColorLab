@@ -2,14 +2,13 @@
 
 ColorLab 颜色相关的研究，ACES，Color Grading，Tone Mapping
 
-
 ## Getting Started 
-
 ### Installing
 
 * PIL, Numpy, Scipy ... 这些库
 
 
+## Color Science
 ### Math
 
 * sRGB to Linear Color: https://www.desmos.com/calculator/swx0yxolsd?lang=zh-CN
